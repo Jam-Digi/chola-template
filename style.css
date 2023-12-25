@@ -218,6 +218,19 @@ ul {
 }
 
 @media (max-width: 574px) {
+  .swiper-slide{
+    text-align: center;
+  }
+
+  .swiper-slide p{
+    margin: 2rem 0;
+    width: 100%;
+  }
+.swiper-button-prev::after{
+  display: none;
+}.swiper-button-next::after{
+  display: none;
+}
   .footer-col {
     width: 100%;
   }
