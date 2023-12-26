@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 :root {
   --primary-color: #91ad41;
   --white: #ffffff;
   --primary-font-color: #27272f;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -77,9 +78,15 @@ body {
   position: absolute;
   top: 30%;
   left: 13%;
+ 
+}
+.content h4,h2{
+  font-size: 5rem;
 }
 .content p {
   width: 50%;
+  margin: 2rem 0;
+
 }
 
 .card-group div {
@@ -218,19 +225,26 @@ ul {
 }
 
 @media (max-width: 574px) {
-  .swiper-slide{
+  .nav-item {
+    margin: 0;
+  }
+  .sm-icons li a {
+    display: none;
+  }
+  .swiper-slide {
     text-align: center;
   }
 
-  .swiper-slide p{
+  .swiper-slide p {
     margin: 2rem 0;
     width: 100%;
   }
-.swiper-button-prev::after{
-  display: none;
-}.swiper-button-next::after{
-  display: none;
-}
+  .swiper-button-prev::after {
+    display: none;
+  }
+  .swiper-button-next::after {
+    display: none;
+  }
   .footer-col {
     width: 100%;
   }
