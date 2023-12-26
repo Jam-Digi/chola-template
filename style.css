@@ -225,6 +225,13 @@ ul {
 }
 
 @media (max-width: 574px) {
+  .content h4,h2{
+    font-size: 2rem;
+  }
+  .content p {
+    margin: 1rem 0;
+  
+  }
   .nav-item {
     margin: 0;
   }
