@@ -226,11 +226,12 @@ ul {
 
 @media (max-width: 574px) {
   .content h4,h2{
-    font-size: 2rem;
+    font-size: 8vw;
   }
-  .content p {
-    margin: 1rem 0;
-  
+  .mainp {
+    margin: 1vw 0;
+    font-size: .9em;
+    font-weight: 100;
   }
   .nav-item {
     margin: 0;
@@ -251,6 +252,9 @@ ul {
   }
   .swiper-button-next::after {
     display: none;
+  }
+  .chola{
+    text-align: center;
   }
   .footer-col {
     width: 100%;
