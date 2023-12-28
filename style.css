@@ -78,17 +78,24 @@ body {
   position: absolute;
   top: 30%;
   left: 13%;
- 
 }
-.content h4,h2{
+.content h4,
+h2 {
   font-size: 5rem;
+}
+.content p,
+.aboutp,.misp {
+  line-height: 2rem;
 }
 .content p {
   width: 50%;
   margin: 2rem 0;
-
 }
-
+.aboutp {
+  width: 70%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
 .card-group div {
   color: #fff;
 }
@@ -225,12 +232,13 @@ ul {
 }
 
 @media (max-width: 574px) {
-  .content h4,h2{
+  .content h4,
+  h2 {
     font-size: 8vw;
   }
   .mainp {
     margin: 1vw 0;
-    font-size: .9em;
+    font-size: 0.9em;
     font-weight: 100;
   }
   .nav-item {
@@ -253,7 +261,7 @@ ul {
   .swiper-button-next::after {
     display: none;
   }
-  .chola{
+  .chola {
     text-align: center;
   }
   .footer-col {
